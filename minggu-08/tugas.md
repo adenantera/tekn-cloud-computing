@@ -8,4 +8,4 @@
 
 </dd>
 
-Docker compose memiliki tujuan agar dapat menjalankan multi-containers yang dapat disetting pada file yml, untuk dapat menjalankannya dapat melalui client dengan perintah-perintah yang ada lalu untuk mengatur dan mengelompokkan container tersebut juga dapat diatur dengan docker swarm output yang didapatkan berupa image.
+Dari diagram yang saya rancang diatas, docker compose dapat menerima request dari file yml sehingga feedback yang diberikan dengan membaca file yml dan mengirim ke manage docker client, dimana cli dapat melakukan deklarasi build dan kemudian melakukan running dan kemudian dapat melakukan pull terhadap image container nanti. Apabila proses manage pada docker client melakukan request maka terlebih dahulu melalaui docker swarm untuk melakukan pengelompokan terhadap request yang diberikan dan kemudkan akan dilanjutkan ke dockerd/docker daemond, dimana pada docker dameond image dan container saling mengirim dan menerima feedback untuk selanjutnya memberikan feedback kepada docker cli untuk melakukan manage ulang terhadap kesalahan dll.
