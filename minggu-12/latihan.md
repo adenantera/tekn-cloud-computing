@@ -13,7 +13,8 @@ Untuk dapat mengakses terminal linux pada web ini yakni dengan login terlebih da
 1. Membuat container baru pada terminal node1.
 
 ![](image/latihan/2.png)
-` Disini menggunakan container terbaru dari ubuntu. `
+
+`Disini menggunakan container terbaru dari ubuntu.`
 
 2. Melihat daftar container untuk memastikan bahwa container telah berhasil dibuat.
 
@@ -22,20 +23,23 @@ Untuk dapat mengakses terminal linux pada web ini yakni dengan login terlebih da
 3. Menginisialisasi docker swarm.
 
 ![](image/latihan/4.png)
-` Disini kita mendapatkan token untuk menggabungkan dengan node lain nantinya. `
+
+`Disini kita mendapatkan token untuk menggabungkan dengan node lain nantinya.`
 
 4. Melihat informasi docker swarm pada node1.
 
 ![](image/latihan/5.png)
 ![](image/latihan/6.png)
 ![](image/latihan/7.png)
-` Node1 merupakan node untuk memanajemen node lainnya. `
+
+`Node1 merupakan node untuk memanajemen node lainnya.`
 
 5. Menggabungkan node2 dan node3 kedalam swarm node1 dengan menggunakan token yang telah didapatkan sebelumnya.
 
 ![](image/latihan/8.png)
 ![](image/latihan/9.png)
-` Disini node2 dan node3 telah bergabung dengan swarm node1 sebagai Worker nodes. `
+
+`Disini node2 dan node3 telah bergabung dengan swarm node1 sebagai Worker nodes.`
 
 6. Melihat daftar node yang ada beserta keterangannya.
 
@@ -88,12 +92,14 @@ Untuk dapat mengakses terminal linux pada web ini yakni dengan login terlebih da
 18. Melihat container yang sedang berjalan pada node2.
 
 ![](image/latihan/22.png)
-` Disini kosong karena node2 availability sebelumnya telah diubah menjadi drain. `
+
+`Disini kosong karena node2 availability sebelumnya telah diubah menjadi drain.`
 
 19. Melihat layanan yang sedang berjalan.
 
 ![](image/latihan/23.png)
-` Disini terlihat bahwasanya layanan yang menggunakan node2 terhenti karena sama seperti sebelumnya tadi. `
+
+`Disini terlihat bahwasanya layanan yang menggunakan node2 terhenti karena sama seperti sebelumnya tadi.`
 
 20. Menghapus layanan.
 
@@ -108,6 +114,7 @@ Untuk dapat mengakses terminal linux pada web ini yakni dengan login terlebih da
 ![](image/latihan/26.png)
 
 23. Menhapus swarm pada node1, 2 dan 3.
+
     ![](image/latihan/27.png)
     ![](image/latihan/28.png)
     ![](image/latihan/29.png)
