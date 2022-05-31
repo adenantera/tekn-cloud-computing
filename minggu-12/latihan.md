@@ -29,7 +29,9 @@ Untuk dapat mengakses terminal linux pada web ini yakni dengan login terlebih da
 4. Melihat informasi docker swarm pada node1.
 
 ![](image/latihan/5.png)
+
 ![](image/latihan/6.png)
+
 ![](image/latihan/7.png)
 
 `Node1 merupakan node untuk memanajemen node lainnya.`
@@ -37,6 +39,7 @@ Untuk dapat mengakses terminal linux pada web ini yakni dengan login terlebih da
 5. Menggabungkan node2 dan node3 kedalam swarm node1 dengan menggunakan token yang telah didapatkan sebelumnya.
 
 ![](image/latihan/8.png)
+
 ![](image/latihan/9.png)
 
 `Disini node2 dan node3 telah bergabung dengan swarm node1 sebagai Worker nodes.`
@@ -116,5 +119,7 @@ Untuk dapat mengakses terminal linux pada web ini yakni dengan login terlebih da
 23. Menhapus swarm pada node1, 2 dan 3.
 
     ![](image/latihan/27.png)
+
     ![](image/latihan/28.png)
+
     ![](image/latihan/29.png)
